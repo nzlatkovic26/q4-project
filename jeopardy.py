@@ -52,6 +52,9 @@ def twogeo():
 def fourgeo():
   return "This country is home to the world's largest tropical rainforest, covering much of its northern region."
 
+def sixgeo():
+  return "This mountain range, stretching approximately 4,350 miles across eight countries in South America, is the longest continental mountain range in the world."
+
 def eightgeo():
   return "This European city, often called 'The Eternal City,' is home to landmarks such as the Colosseum, Vatican City, and the Trevi Fountain."
 
@@ -70,7 +73,7 @@ def sixfood():
 def eightfood():
   return "This popular Japanese dish consists of vinegared rice served with a variety of ingredients such as raw or cooked fish, vegetables, and sometimes tropical fruits."
 
-def tennfood():
+def tenfood():
   return "This French dish, consisting of thinly sliced potatoes, cream, garlic, and cheese, is typically baked until golden and bubbly."
 
 def twohist():
@@ -85,7 +88,7 @@ def sixhist():
 def eighthist():
   return "This series of military and political conflicts, lasting from 1337 to 1453, saw the kingdoms of England and France battling over control of the French throne."
 
-def tennhist():
+def tenhist():
   return "This ancient civilization, which flourished along the banks of the Tigris and Euphrates rivers, is credited with the invention of writing and the first known legal code, Hammurabi's Code."
 
 def twomovies():
@@ -100,5 +103,100 @@ def sixmovies():
 def eightmovies():
   return "This epic fantasy film trilogy, directed by Peter Jackson and based on the novels by J.R.R. Tolkien, follows the journey of a young hobbit named Frodo Baggins as he sets out to destroy a powerful ring."
 
-def tennmovies():
+def tenmovies():
   return "In this 1991 film directed by Jonathan Demme, an FBI trainee named Clarice Starling seeks the help of imprisoned serial killer Hannibal Lecter to catch another serial killer known as Buffalo Bill."
+
+print("")
+
+def category():
+  choose = input("Choose a category and price: ")
+  if choose == 'TV $200':
+    print("")
+    print(twotv())
+  if choose == 'TV $400':
+    print("")
+    print(fourtv())
+  if choose == 'TV $600':
+    print("")
+    print(sixtv())
+  if choose == 'TV $800':
+    print("")
+    print(eighttv())
+  if choose == 'TV $1000':
+    print("")
+    print(tentv())
+  if choose == 'MUSIC $200':
+    print("")
+    print(twomusic())
+  if choose == 'MUSIC $400':
+    print("")
+    print(fourmusic())
+  if choose == 'MUSIC $600':
+    print("")
+    print(sixmusic())
+  if choose == 'MUSIC $800':
+    print("")
+    print(eightmusic())
+  if choose == 'MUSIC $1000':
+    print("")
+    print(tenmusic())
+  if choose == 'GEO $200':
+    print("")
+    print(twogeo())
+  if choose == 'GEO $400':
+    print("")
+    print(fourgeo())
+  if choose == 'GEO $600':
+    print("")
+    print(sixgeo())
+  if choose == 'GEO $800':
+    print("")
+    print(eightgeo())
+  if choose == 'GEO $1000':
+    print("")
+    print(tengeo())
+  if choose == 'FOOD & DRINK $200':
+    print("")
+    print(twofood())
+  if choose == 'FOOD & DRINK $400':
+    print("")
+    print(fourfood())
+  if choose == 'FOOD & DRINK $600':
+    print("")
+    print(sixfood())
+  if choose == 'FOOD & DRINK $800':
+    print("")
+    print(eightfood())
+  if choose == 'FOOD & DRINK $1000':
+    print("")
+    print(tenfood())
+  if choose =="HISTORY $200":
+    print("")
+    print(twohist())
+  if choose == 'HISTORY $400':
+    print("")
+    print(fourhist())
+  if choose == 'HISTORY $600':
+    print("")
+    print(sixhist())
+  if choose == 'HISTORY $800':
+    print("")
+    print(eighthist())
+  if choose == 'HISTORY $1000':
+    print("")
+    print(tenhist())
+  if choose == 'MOVIES $200':
+    print("")
+    print(twomovies())
+  if choose == 'MOVIES $400':
+    print("")
+    print(fourmovies())
+  if choose == 'MOVIES $600':
+    print("")
+    print(sixmovies())
+  if choose == 'MOVIES $800':
+    print("")
+    print(eightmovies())
+  if choose == 'MOVIES $1000':
+    print("")
+    print(tenmovies())
