@@ -1,0 +1,94 @@
+print("")
+
+def category():
+  choose = input("Choose a category and price: ")
+  if choose == 'TV $200':
+    print("")
+    print(twotv())
+  if choose == 'TV $400':
+    print("")
+    print(fourtv())
+  if choose == 'TV $600':
+    print("")
+    print(sixtv())
+  if choose == 'TV $800':
+    print("")
+    print(eighttv())
+  if choose == 'TV $1000':
+    print("")
+    print(tentv())
+  if choose == 'MUSIC $200':
+    print("")
+    print(twomusic())
+  if choose == 'MUSIC $400':
+    print("")
+    print(fourmusic())
+  if choose == 'MUSIC $600':
+    print("")
+    print(sixmusic())
+  if choose == 'MUSIC $800':
+    print("")
+    print(eightmusic())
+  if choose == 'MUSIC $1000':
+    print("")
+    print(tenmusic())
+  if choose == 'GEO $200':
+    print("")
+    print(twogeo())
+  if choose == 'GEO $400':
+    print("")
+    print(fourgeo())
+  if choose == 'GEO $600':
+    print("")
+    print(sixgeo())
+  if choose == 'GEO $800':
+    print("")
+    print(eightgeo())
+  if choose == 'GEO $1000':
+    print("")
+    print(tengeo())
+  if choose == 'FOOD & DRINK $200':
+    print("")
+    print(twofood())
+  if choose == 'FOOD & DRINK $400':
+    print("")
+    print(fourfood())
+  if choose == 'FOOD & DRINK $600':
+    print("")
+    print(sixfood())
+  if choose == 'FOOD & DRINK $800':
+    print("")
+    print(eightfood())
+  if choose == 'FOOD & DRINK $1000':
+    print("")
+    print(tenfood())
+  if choose =="HISTORY $200":
+    print("")
+    print(twohist())
+  if choose == 'HISTORY $400':
+    print("")
+    print(fourhist())
+  if choose == 'HISTORY $600':
+    print("")
+    print(sixhist())
+  if choose == 'HISTORY $800':
+    print("")
+    print(eighthist())
+  if choose == 'HISTORY $1000':
+    print("")
+    print(tenhist())
+  if choose == 'MOVIES $200':
+    print("")
+    print(twomovies())
+  if choose == 'MOVIES $400':
+    print("")
+    print(fourmovies())
+  if choose == 'MOVIES $600':
+    print("")
+    print(sixmovies())
+  if choose == 'MOVIES $800':
+    print("")
+    print(eightmovies())
+  if choose == 'MOVIES $1000':
+    print("")
+    print(tenmovies())
