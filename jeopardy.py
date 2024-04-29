@@ -211,13 +211,36 @@ def answers(player_name, choose):
   question = input(f"Player {player_name} - What is your question?: ")
   value = 0
   
-  if choose == 'TV $200':
+   if choose == 'TV $200':
     value = 200
     if question != "What is the Simpsons?":
       value = -200
     else: 
       TV[0] = " XXXX"
-  return value
+  if choose == 'TV $400':
+    value = 400
+    if question != "What is Friends?":
+      value = -400
+    else: 
+      TV[1] = " XXXX"
+  if choose == 'TV $600':
+    value = 600
+    if question != "What is Mad Men?":
+      value = -600
+    else: 
+      TV[2] = " XXXX"
+  if choose == 'TV $800':
+    value = 800
+    if question != "What is Handmaid's Tale?":
+       value = -800
+    else: 
+       TV[3] = " XXXX"
+  if choose == 'TV $1000':
+    value = 1000
+    if question != "What is We Own This City?":
+      value = -600
+    else: 
+      TV[0] = " XXXX"
 
 def play_game():
   players = {"A" : 0, "B" : 0, "C" : 0}
