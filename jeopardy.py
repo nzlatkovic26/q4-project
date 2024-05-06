@@ -115,23 +115,47 @@ def category(player_name):
   
   choose = input(f"Player {player_name} - Choose a category and price: ")
   if choose == 'TV $200':
+    if TV[0] == " XXXX":
+      print("This category has already been answered")
+      return
+  else: 
     print("")
     print(twotv())
   if choose == 'TV $400':
+    if TV[1] == " XXXX":
+      print("This category has already been answered")
+    return
+  else:
     print("")
     print(fourtv())
   if choose == 'TV $600':
-    print("")
-    print(sixtv())
+    if TV[2] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(sixtv())
   if choose == 'TV $800':
-    print("")
-    print(eighttv())
+    if TV[3] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(eighttv())
   if choose == 'TV $1000':
-    print("")
-    print(tentv())
+    if TV[4] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(tentv())
   if choose == 'MUSIC $200':
-    print("")
-    print(twomusic())
+    if MUSIC[0] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(twomusic())
   if choose == 'MUSIC $400':
     print("")
     print(fourmusic())
@@ -390,6 +414,7 @@ def answers(player_name, choose):
       value = -1000
     else: 
       MOVIES[4] = " XXXX"
+    return value
 
 def play_game():
   players = {"A" : 0, "B" : 0, "C" : 0}
