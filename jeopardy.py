@@ -157,77 +157,173 @@ def category(player_name):
       print("")
       print(twomusic())
   if choose == 'MUSIC $400':
-    print("")
-    print(fourmusic())
+    if MUSIC[1] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(fourmusic())
   if choose == 'MUSIC $600':
-    print("")
-    print(sixmusic())
+    if MUSIC[2] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(sixmusic())
   if choose == 'MUSIC $800':
-    print("")
-    print(eightmusic())
+    if MUSIC[3] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(eightmusic())
   if choose == 'MUSIC $1000':
-    print("")
-    print(tenmusic())
+    if MUSIC[4] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(tenmusic())
   if choose == 'GEO $200':
-    print("")
-    print(twogeo())
+    if GEO[0] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(twogeo())
   if choose == 'GEO $400':
-    print("")
-    print(fourgeo())
+    if GEO[1] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(fourgeo())
   if choose == 'GEO $600':
-    print("")
-    print(sixgeo())
+    if GEO[2] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(sixgeo())
   if choose == 'GEO $800':
-    print("")
-    print(eightgeo())
+    if GEO[3] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(eightgeo())
   if choose == 'GEO $1000':
-    print("")
-    print(tengeo())
+    if GEO[4] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(tengeo())
   if choose == 'FOOD & DRINK $200':
-    print("")
-    print(twofood())
+    if FOOD_AND_DRINK[0] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(twofood())
   if choose == 'FOOD & DRINK $400':
-    print("")
-    print(fourfood())
+    if FOOD_AND_DRINK[1] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(fourfood())
   if choose == 'FOOD & DRINK $600':
-    print("")
-    print(sixfood())
+    if FOOD_AND_DRINK[2] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(sixfood())
   if choose == 'FOOD & DRINK $800':
-    print("")
-    print(eightfood())
+    if FOOD_AND_DRINK[3] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(eightfood())
   if choose == 'FOOD & DRINK $1000':
-    print("")
-    print(tenfood())
+    if FOOD_AND_DRINK[4] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(tenfood())
   if choose =="HISTORY $200":
-    print("")
-    print(twohist())
+    if HISTORY[0] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(twohist())
   if choose == 'HISTORY $400':
-    print("")
-    print(fourhist())
+    if HISTORY[1] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(fourhist())
   if choose == 'HISTORY $600':
+    if HISTORY[2] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
     print("")
     print(sixhist())
   if choose == 'HISTORY $800':
+    if HISTORY[3] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
     print("")
     print(eighthist())
   if choose == 'HISTORY $1000':
-    print("")
-    print(tenhist())
+    if HISTORY[4] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(tenhist())
   if choose == 'MOVIES $200':
-    print("")
-    print(twomovies())
+    if MOVIES[0] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(twomovies())
   if choose == 'MOVIES $400':
-    print("")
-    print(fourmovies())
+    if MOVIES[1] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(fourmovies())
   if choose == 'MOVIES $600':
-    print("")
-    print(sixmovies())
+    if MOVIES[2] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(sixmovies())
   if choose == 'MOVIES $800':
-    print("")
-    print(eightmovies())
+    if MOVIES[3] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(eightmovies())
   if choose == 'MOVIES $1000':
-    print("")
-    print(tennmovies())
+    if MOVIES[4] == " XXXX":
+      print("This category has already been answered")
+      return
+    else:
+      print("")
+      print(tenmovies())
 
   return choose
 
