@@ -118,16 +118,16 @@ def category(player_name):
     if TV[0] == " XXXX":
       print("This category has already been answered")
       return
-  else: 
-    print("")
-    print(twotv())
+    else: 
+      print("")
+      print(twotv())
   if choose == 'TV $400':
     if TV[1] == " XXXX":
       print("This category has already been answered")
-    return
-  else:
-    print("")
-    print(fourtv())
+      return
+    else:
+      print("")
+      print(fourtv())
   if choose == 'TV $600':
     if TV[2] == " XXXX":
       print("This category has already been answered")
