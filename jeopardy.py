@@ -528,6 +528,20 @@ def play_game():
   
 play_game()
 
+categories = [ TV, MUSIC, GEO, FOOD_AND_DRINK, HISTORY, MOVIES ]
+done = True 
+for choose in categories:
+  for value in choose:
+    if value != " XXXX":
+      done = False
+
+if players == "A" > players == "B" and players == "C":
+  print("Player A wins!")
+elif players == "B" > players == "A" and players == "C":
+  print("Player B wins!")
+else:
+  print("Player C wins!")
+
 # 1: questions to all the answers
 # 2: way to end the game (when all categories are finished)
 # 3: way for multiple players to respond to the same answer
