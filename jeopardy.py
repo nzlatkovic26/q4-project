@@ -535,9 +535,9 @@ for choose in categories:
     if value != " XXXX":
       done = False
 
-if players == "A" > players == "B" and players == "C":
+if players["A"] > players["B"] and players["C"]:
   print("Player A wins!")
-elif players == "B" > players == "A" and players == "C":
+elif players["B"] > players["A"] and players["C"]:
   print("Player B wins!")
 else:
   print("Player C wins!")
