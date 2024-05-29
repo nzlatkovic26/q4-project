@@ -516,31 +516,31 @@ def play_game():
   players = {"A" : 0, "B" : 0, "C" : 0}
   print("Welcome to Jeopardy!")
 
-  while(True):
+  
+  done = False
+  while(not done):
     for name, value in players.items():
       board()
       choose = category(name)
       value = answers(name, choose)
       players[name] += value
       print(f"Player {name} score = ${players[name]}")
-      
-      
-  
-play_game()
+      done = check_done()
+      if done:
+        break
 
-categories = [ TV, MUSIC, GEO, FOOD_AND_DRINK, HISTORY, MOVIES ]
-done = True 
-for choose in categories:
-  for value in choose:
-    if value != " XXXX":
-      done = False
-
-if players["A"] > players["B"] and players["C"]:
-  print("Player A wins!")
-elif players["B"] > players["A"] and players["C"]:
-  print("Player B wins!")
-else:
-  print("Player C wins!")
+   
+    
+  print("")
+  print(f"Player A score = ${players['A']}")
+  print(f"Player B score = ${players['B']}")
+  print(f"Player C score = ${players['C']}")
+  if players["A"] > players["B"] and players["A"] > players["C"]:
+    print("Player A wins!")
+  elif players["B"] > players["A"] and players["B"] > players["C"]:
+    print("Player B wins!")
+  else:
+    print("Player C wins!")
 
 # 1: questions to all the answers
 # 2: way to end the game (when all categories are finished)
