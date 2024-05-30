@@ -329,188 +329,190 @@ def category(player_name):
 
 def answers(player_name, choose):
   question = input(f"Player {player_name} - What is your question?: ")
+  question = question.lower()
   value = 0
-    if choose == 'TV $200':
+  
+  if choose == 'TV $200':
     value = 200
-    if question != "What is the Simpsons?":
+    if question != "what is the simpsons?":
       value = -200
     else: 
       TV[0] = " XXXX"
   if choose == 'TV $400':
     value = 400
-    if question != "What is Friends?":
+    if question != "what is friends?":
       value = -400
     else: 
       TV[1] = " XXXX"
   if choose == 'TV $600':
     value = 600
-    if question != "What is Mad Men?":
+    if question != "what is mad men?":
       value = -600
     else: 
       TV[2] = " XXXX"
   if choose == 'TV $800':
     value = 800
-    if question != "What is Handmaid's Tale?":
+    if question != "what is handmaid's tale?":
        value = -800
     else: 
        TV[3] = " XXXX"
   if choose == 'TV $1000':
-    value = 10000
-    if question != "What is We Own This City?":
-      value = -10000
+    value = 1000
+    if question != "what is we own this city?":
+      value = -1000
     else: 
       TV[4] = " XXXX"
   if choose == 'MUSIC $200':
     value = 200
-    if question != "Who is Drake?":
+    if question != "who is drake?":
       value = -200
     else: 
       MUSIC[0] = " XXXX"
   if choose == 'MUSIC $400':
     value = 400
-    if question != "Who is Elvis Presley?":
+    if question != "who was elvis presley?":
       value = -400
     else: 
       MUSIC[1] = " XXXX"
   if choose == 'MUSIC $600':
     value = 600
-    if question != "Who is Pink Floyd?":
+    if question != "who was pink floyd?":
       value = -600
     else: 
       MUSIC[2] = " XXXX"
   if choose == 'MUSIC $800':
     value = 800
-    if question != "Who is Dr. Dre?":
+    if question != "who is dr. dre?":
       value = -800
     else: 
       MUSIC[3] = " XXXX"
   if choose == 'MUSIC $1000':
-    value = 10000
-    if question != "Who is Michael Jackson?":
-      value = -10000
+    value = 1000
+    if question != "who is michael jackson?":
+      value = -1000
     else: 
       MUSIC[4] = " XXXX"
   if choose == 'GEO $200':
     value = 200
-    if question != "What is the Nile River?":
+    if question != "what is the nile river?":
       value = -200
     else: 
       GEO[0] = " XXXX"
   if choose == 'GEO $400':
     value = 400
-    if question != "What is the Brazil?":
+    if question != "what is brazil?":
       value = -400
     else: 
       GEO[1] = " XXXX"
   if choose == 'GEO $600':
     value = 600
-    if question != "What are the Andes Mountains?":
+    if question != "what are the andes mountains?":
       value = -600
     else: 
       GEO[2] = " XXXX"
   if choose == 'GEO $800':
     value = 800
-    if question != "What is Rome?":
+    if question != "what is rome?":
       value = -800
     else: 
       GEO[3] = " XXXX"
   if choose == 'GEO $1000':
     value = 1000
-    if question != "What is Etheopia?":
+    if question != "what is ethiopia?":
       value = -1000
     else: 
       GEO[4] = " XXXX"
-  if choose == 'FOOD AND DRINK $200':
+  if choose == 'FOOD & DRINK $200':
     value = 200
-    if question != "What is Carpaccio?":
+    if question != "what is carpaccio?":
       value = -200
     else: 
       FOOD_AND_DRINK[0] = " XXXX"
-  if choose == 'FOOD AND DRINK $400':
+  if choose == 'FOOD & DRINK $400':
     value = 400
-    if question != "What are Tacos?":
+    if question != "what are tacos?":
       value = -400
     else: 
       FOOD_AND_DRINK[1] = " XXXX"
-  if choose == 'FOOD AND DRINK $600':
+  if choose == 'FOOD & DRINK $600':
     value = 600
-    if question != "What is Kombucha?":
+    if question != "what is kombucha?":
       value = -600
     else: 
       FOOD_AND_DRINK[2] = " XXXX"
-  if choose == 'FOOD AND DRINK $800':
+  if choose == 'FOOD & DRINK $800':
     value = 800
-    if question != "What is Sushi?":
+    if question != "what is sushi?":
       value = -200
     else: 
       FOOD_AND_DRINK[3] = " XXXX"
-  if choose == 'FOOD AND DRINK $1000':
+  if choose == 'FOOD & DRINK $1000':
     value = 1000
-    if question != "What is Dauphinoise?":
+    if question != "what is dauphinoise?":
       value = -1000
     else: 
       FOOD_AND_DRINK[4] = " XXXX"
   if choose == 'HISTORY $200':
     value = 200
-    if question != "What was WW1?":
+    if question != "what was ww1?":
       value = -200
     else: 
       HISTORY[0] = " XXXX"
   if choose == 'HISTORY $400':
     value = 400
-    if question != "Who was Christopher Colombus?":
+    if question != "who was christopher colombus?":
       value = -400
     else: 
       HISTORY[1] = " XXXX"
   if choose == 'HISTORY $600':
     value = 600
-    if question != "What was the Magna Carta?":
+    if question != "what was the magna carta?":
       value = -600
     else: 
       HISTORY[2] = " XXXX"
   if choose == 'HISTORY $800':
     value = 800
-    if question != "What was the Hundred Years War?":
+    if question != "what was the hundred years war?":
       value = -800
     else: 
       HISTORY[3] = " XXXX"
   if choose == 'HISTORY $1000':
     value = 1000
-    if question != "Who were Sumerians?":
+    if question != "who were sumerians?":
       value = -1000
     else: 
       HISTORY[0] = " XXXX"
   if choose == 'MOVIES $200':
     value = 200
-    if question != "What is the Wizard of Oz?":
+    if question != "what is the wizard of oz?":
       value = -200
     else: 
       MOVIES[0] = " XXXX"
   if choose == 'MOVIES $400':
     value = 400
-    if question != "What is The Lion King?":
+    if question != "what is The lion king?":
       value = -400
     else: 
       MOVIES[1] = " XXXX"
   if choose == 'MOVIES $600':
     value = 600
-    if question != "What is Pulp Fiction?":
+    if question != "what is pulp fiction?":
       value = -600
     else: 
       MOVIES[2] = " XXXX"
   if choose == 'MOVIES $800':
     value = 800
-    if question != "What is The Lord of the Rings?":
+    if question != "what is the lord of the rings?":
       value = -800
     else: 
       MOVIES[3] = " XXXX"
   if choose == 'MOVIES $1000':
     value = 1000
-    if question != "What is Silence of the Lambs?":
+    if question != "what is silence of the lambs?":
       value = -1000
     else: 
       MOVIES[4] = " XXXX"
-    return value
+  return value
 
 def play_game():
   players = {"A" : 0, "B" : 0, "C" : 0}
